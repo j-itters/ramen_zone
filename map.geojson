@@ -4,7 +4,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Isshin Ramen"
+        "name": "Isshin Ramen",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "circle"
       },
       "geometry": {
         "coordinates": [
@@ -18,7 +21,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Ikkousha Ramen"
+        "name": "Ikkousha Ramen",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "circle"
       },
       "geometry": {
         "coordinates": [
@@ -32,7 +38,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Sansotei Ramen"
+        "name": "Sansotei Ramen",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "circle"
       },
       "geometry": {
         "coordinates": [
@@ -46,7 +55,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Kenzo Ramen"
+        "name": "Kenzo Ramen",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "circle"
       },
       "geometry": {
         "coordinates": [
@@ -60,7 +72,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Ajisen Ramen"
+        "name": "Ajisen Ramen",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "circle"
       },
       "geometry": {
         "coordinates": [
@@ -74,7 +89,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Kinton Ramen"
+        "name": "Kinton Ramen",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "circle"
       },
       "geometry": {
         "coordinates": [
@@ -88,7 +106,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Konjiki Ramen"
+        "name": "Konjiki Ramen",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "circle"
       },
       "geometry": {
         "coordinates": [
