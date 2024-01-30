@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GGR472 Lab1 Main</title>
+    <link rel="stylesheet" href = "style.css">
+</head>
+
+<!-- Navigation bar on the top -->
+<div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="news.html">News</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">List</a>
+  </div>
+
+<!-- Creating the "Ramen Zone" logo that will go on the top of each page -->
+<div class = "logo">
+    <h1>
+        <img src = "ramen2.png" alt = "Icon of Ramen in Bowl" class = "img2">
+        The Ramen Zone
+        <img src = "ramen2.png" alt = "Icon of Ramen in Bowl" class = "img2">
+    </h1>
+    <p>Mapping the best ramen in Toronto, according to Jamie Chow</p>
+
+<!-- Creating a table for the 3 side by side "surprise" images that you can reveal by clicking -->
+<div class="row">
+  <div class="column1">
+    <img data-src= "ramen.jpeg" src="" alt="Click for a surprise!" class = "img1"/>
+  </div>
+  <div class="column1">
+    <img data-src= "ramen3.jpeg" src="" alt="Click for a surprise!" class = "img1"/>
+  </div>
+  <div class="column1">
+    <img data-src= "ramen4.jpeg" src="" alt="Click for a surprise!" class = "img1"/>
+  </div>
+  <script src="script.js"></script>
+</div>
+
+<!-- Simple info box -->
+<div class = "heading">
+    <h2>Want to find out more?</h2>
+    <p>Click
+        <a target = "blank" href = "https://www.destinationtoronto.com/leisure-blog/post/best-ramen-toronto/">here</a>
+        to find out about the best ramen places in Toronto!
+    </p>
+    <p>Click
+        <a target = "blank" href = "map.geojson">here</a>
+        for the GeoJSON file!
+    </p>
+</div>
+
+<!-- Footer with a small logo for the bottom of each page -->
+<div class = "footer">
+    <img src = "ramen2.png" alt = "Icon of Ramen in Bowl" class = "img2">
+</div>
+</html>

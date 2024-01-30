@@ -1,0 +1,130 @@
+body {
+    background-color: antiquewhite;
+}
+/* Three image containers using width = 33.33%*/
+.column1 {
+    float: right;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+/* Two image containers using width = 50%*/
+.column2 {
+    width: 50%;
+}
+  
+/* Row to contain the columns*/
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    content: "";
+    clear: both;
+    display: flex;
+  }
+
+/* Creating the click to reveal image feature */
+.img1 {
+    display: block;
+    width: 400px; /* width of the image */
+    place-items: center;
+    cursor: pointer;
+    max-width: 100%;
+    aspect-ratio: 2/1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+
+/* before the image is clicked, there is an opaque block */
+    &:before {
+      border-radius: 15px;
+      position: relative;
+      background: #fbdbb6;
+      z-index: 1;
+      height: 100%;
+      color: #f33e6e;
+      font-size: x-large;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      content: attr(alt);
+      display: grid;
+      place-items: center;
+    }
+  }
+
+  /* after the image is clicked, the image appears */
+  .load-image {
+    display: block;
+    background: #ccc;
+    height: 400px;
+    width: 100%;
+    border-radius: 15px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+  }
+
+/* image class for the small logo */
+.img2 {
+    width: 60px;
+}
+
+/* image class for the larger image in the "List" section*/
+.img3 {
+    width: 500px;
+}
+
+/* style for the logo to appear at the top of each page*/
+.logo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:#f33e6e
+}
+
+/* style for the pink info boxes */
+.heading {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #ff88a8;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+/* adding a dark pink background to the top navigation style */
+.topnav {
+    background-color: #f33e6e;
+    overflow: hidden;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  /* style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* change the colour of links on hover */
+  .topnav a:hover {
+    background-color: #ffffff;
+    color: #ff88a8;
+  }
+  
+  /* add the inverted colour to the active/current link */
+  .topnav a.active {
+    background-color: #ff88a8;
+    color: white;
+  }
+
+/* styling the footer */
+.footer {
+    text-align: center;
+}

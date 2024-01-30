@@ -1,0 +1,103 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Isshin Ramen"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.40684997637433,
+          43.65640489153452
+        ],
+        "type": "Point"
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ikkousha Ramen"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.38898670637461,
+          43.65022036491547
+        ],
+        "type": "Point"
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sansotei Ramen"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.38645899512304,
+          43.65504482476911
+        ],
+        "type": "Point"
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kenzo Ramen"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.38490339333734,
+          43.65559767167218
+        ],
+        "type": "Point"
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ajisen Ramen"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.39869756514668,
+          43.65389087511886
+        ],
+        "type": "Point"
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kinton Ramen"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.39392022764156,
+          43.6557604672723
+        ],
+        "type": "Point"
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Konjiki Ramen"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.38337199383857,
+          43.65735892753307
+        ],
+        "type": "Point"
+      },
+      "id": 6
+    }
+  ]
+}
