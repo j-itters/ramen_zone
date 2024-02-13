@@ -1,5 +1,5 @@
 body {
-    background-color: antiquewhite;
+    background-color: #faebd7;
 }
 /* Three image containers using width = 33.33%*/
 .column1 {
@@ -10,7 +10,7 @@ body {
 
 /* Two image containers using width = 50%*/
 .column2 {
-    width: 50%;
+    width: 66.6%;
 }
   
 /* Row to contain the columns*/
@@ -117,11 +117,18 @@ body {
     background-color: #ffffff;
     color: #ff88a8;
   }
-  
+  p
   /* add the inverted colour to the active/current link */
   .topnav a.active {
     background-color: #ff88a8;
     color: white;
+  }
+
+.map-container {
+  position: absolute;
+  top: 247px;
+  bottom: 50px;
+  width: 60%;
   }
 
 /* styling the footer */
