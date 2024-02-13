@@ -17,3 +17,6 @@ script.js
 ## FOLDERS:
 images --> contains the images used in the webpage  
 university_json --> contains the geojson files of the university properties
+
+## OTHER FIlES:
+map.geojson --> raw geojson file that links to the homepage. contains ramen restaurants.
