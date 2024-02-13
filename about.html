@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GGR472 Lab1 List</title>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.css'
+    rel='stylesheet' />
     <link rel="stylesheet" href = "style.css">
 </head>
 
@@ -13,8 +16,8 @@
     <a href="index.html">Home</a>
     <a href="news.html">News</a>
     <a href="contact.html">Contact</a>
-    <a class="active" href="#home">List</a>
-  </div>
+    <a class="active" href="#home">Map</a>
+</div>
 
 <!-- Creating the "Ramen Zone" logo that will go on the top of each page -->
 <div class = "logo">
@@ -29,16 +32,16 @@
 <div class="row">
   <div class="column2">
     <!-- Image on the left side of the table -->
-    <div class = "heading">
-        <img src = "making_ramen.png" alt = "Image of Ramen ingredients" class = img3>
-    </div>
+    <div id="my-map" class="map-container"></div>
+    <script src="script.js"></script>   
   </div>
-  <div class="column2">
+  <div class="column1">
     <!-- Info box on the right side of the table -->
     <div class = "heading">
-        <h2>
-            The list of best ramen restaurants in Toronto is:
-        </h2>
+        <h3>
+            This map shows the best ramen restaurants in Toronto with proximity to the University
+            of Toronto and Toronto Metropolitan University:
+        </h3>
         <p>
             Isshin Ramen<br> 
             Kinton Ramen<br> 
@@ -49,11 +52,11 @@
             Kenzo Ramen
         </p>
     </div>
+    <!-- Footer with a small logo for the bottom of each page -->
+    <div class = "footer">
+    <img src = "ramen2.png" alt = "Icon of Ramen in Bowl" class = "img2">
+    </div>
   </div>
 </div>
 
-<!-- Footer with a small logo for the bottom of each page -->
-<div class = "footer">
-    <img src = "ramen2.png" alt = "Icon of Ramen in Bowl" class = "img2">
-</div>
 </html>
