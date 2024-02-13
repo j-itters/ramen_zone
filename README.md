@@ -1,3 +1,5 @@
+This repository is a website for "The Ramen Zone", a Toronto-based ramen-themed WebMap. Written by Jamie Chow.
+
 URL: j-itters.github.io
 
 HTML PAGES:
