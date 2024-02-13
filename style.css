@@ -124,7 +124,8 @@ body {
     color: white;
   }
 
-.map-container {
+  /* positioning the map in the fram */
+  .map-container {
   position: absolute;
   top: 247px;
   bottom: 50px;
