@@ -37,7 +37,8 @@ document.querySelectorAll("img").forEach((item) => {
         'fill-outline-color': 'black'
         }
     });
-
+      
+    // Adding TMU property fill data
     map.addSource('tmu-data', {
       type: 'geojson',
       data: 'https://raw.githubusercontent.com/j-itters/j-itters.github.io/main/university_json/tmu.geojson' // Your URL to your buildings.geojson file
@@ -52,6 +53,8 @@ document.querySelectorAll("img").forEach((item) => {
         'fill-outline-color': 'black',
         }
     });
+
+    // Adding label symbology for both universities
     map.addSource('label-data', {
       type: 'geojson',
       data: 'https://raw.githubusercontent.com/j-itters/j-itters.github.io/main/university_json/labels.geojson' // Your URL to your buildings.geojson file
