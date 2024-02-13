@@ -6,7 +6,7 @@ document.querySelectorAll("img").forEach((item) => {
     });
   });
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiamFtaWVjaG93IiwiYSI6ImNsczI5a2oxeDBqc3QybHBhZDRrYnJoMWoifQ.wLIXAScEoL9dMScxZBBjuw'; //Add default public map token from your Mapbox account
+  mapboxgl.accessToken = 'pk.eyJ1IjoiamFtaWVjaG93IiwiYSI6ImNsczI5a2oxeDBqc3QybHBhZDRrYnJoMWoifQ.wLIXAScEoL9dMScxZBBjuw'; //Add default public map token from your Mapbox account
   
   const map = new mapboxgl.Map({
   container: 'my-map', // map container ID
