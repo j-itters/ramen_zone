@@ -159,10 +159,13 @@ ADD POP-UP ON CLICK EVENT
 
   map.on('mouseenter', 'ramen-rating', () => {
     map.getCanvas().style.cursor = 'pointer'; 
+    legend.style.display = 'block';
   });
 
   map.on('mouseleave', 'ramen-rating', () => {
     map.getCanvas().style.cursor = ''; 
+    legend.style.display = "none";
+
   });
   
   map.on('click', 'ramen-rating', (e) => {
@@ -207,19 +210,6 @@ map.on('mouseleave', 'ramen-rating', () => { //If mouse leaves the geojson layer
 });
 
 /*--------------------------------------------------------------------
-ADD INTERACTIVITY BASED ON HTML EVENT
---------------------------------------------------------------------*/
-
-// Add event listener which returns map view to full screen on button click using flyTo method
-document.getElementById('returnbutton').addEventListener('click', () => {
-  map.flyTo({
-    center: [-79.392496, 43.659804], // starting position [lng, lat]
-    zoom: 13.25, // starting zoom
-    essential: true
-  });
-});
-
-/*--------------------------------------------------------------------
 CREATE LEGEND IN JAVASCRIPT
 --------------------------------------------------------------------*/
 //Declare array variables for labels and colours
@@ -259,4 +249,17 @@ legendlabels.forEach((label, i) => {
     item.appendChild(value); //add the value to the legend row
 
     legend.appendChild(item); //add row to the legend
+});
+
+/*--------------------------------------------------------------------
+ADD INTERACTIVITY BASED ON HTML EVENT
+--------------------------------------------------------------------*/
+
+// Add event listener which returns map view to full screen on button click using flyTo method
+document.getElementById('returnbutton').addEventListener('click', () => {
+  map.flyTo({
+    center: [-79.392496, 43.659804], // starting position [lng, lat]
+    zoom: 13.25, // starting zoom
+    essential: true
+  });
 });

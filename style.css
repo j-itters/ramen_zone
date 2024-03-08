@@ -142,6 +142,7 @@ body {
  /*-------------------------------------------------------------------*/
 .legend {
   position: absolute;
+  display : none;
   background-color: #fff;
   border-radius: 3px;
   margin-bottom: 30px;
