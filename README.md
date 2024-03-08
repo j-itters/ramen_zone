@@ -20,7 +20,7 @@ images --> contains the images used in the webpage
 university_json --> contains the geojson files of the university properties
 
 ## OTHER FIlES:
-map.geojson --> raw geojson file that is linked to in index.html
+map.geojson --> raw geojson file containing the list of restaurants
 
 ### List of name, coordinates and ratings of restaurants as listed in map.geojson:
 name: Isshin Ramen, coordinates: -79.40684997637433,43.65640489153452, rating: 4.6
