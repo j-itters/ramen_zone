@@ -4,10 +4,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Isshin Ramen",
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "circle"
+        "name": "Isshin Ramen"
+	"stars" : 4.6
       },
       "geometry": {
         "coordinates": [
@@ -21,10 +19,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Ikkousha Ramen",
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "circle"
+        "name": "Ikkousha Ramen"
+	"stars" : 4.6
       },
       "geometry": {
         "coordinates": [
@@ -38,10 +34,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Sansotei Ramen",
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "circle"
+        "name": "Sansotei Ramen"
+	"stars" : 4.5
       },
       "geometry": {
         "coordinates": [
@@ -55,10 +49,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Kenzo Ramen",
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "circle"
+        "name": "Kenzo Ramen"
+	"stars" : 4.0
       },
       "geometry": {
         "coordinates": [
@@ -72,10 +64,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Ajisen Ramen",
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "circle"
+        "name": "Ajisen Ramen"
+	"stars" : 4.4
       },
       "geometry": {
         "coordinates": [
@@ -89,10 +79,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Kinton Ramen",
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "circle"
+        "name": "Kinton Ramen"
+	"stars" : 4.4
       },
       "geometry": {
         "coordinates": [
@@ -106,10 +94,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Konjiki Ramen",
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "circle"
+        "name": "Konjiki Ramen"
+	"stars" : 4.3
       },
       "geometry": {
         "coordinates": [
