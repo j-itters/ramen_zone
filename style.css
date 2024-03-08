@@ -124,15 +124,57 @@ body {
     color: white;
   }
 
-  /* positioning the map in the fram */
-  .map-container {
+.map-container {
   position: absolute;
   top: 247px;
-  bottom: 50px;
+  bottom: 86px;
   width: 60%;
+  border: 2px solid #ff88a8;
   }
 
 /* styling the footer */
 .footer {
     text-align: center;
+}
+
+ /* this section is used to create the legend */
+
+ /*-------------------------------------------------------------------*/
+.legend {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  padding: 10px;
+  left: 100px;
+  bottom: 100px;
+  z-index: 1;
+}
+
+.legend h4 {
+  margin: 0 0 10px;
+}
+
+.legend-key {
+  display: inline-block;
+  border-radius: 50%; /*curve border to make a circle*/
+  height: 10px; /*size of circle*/
+  width: 10px;
+  margin-right: 5px; /*position of circle*/
+}
+
+/*-------------------------------------------------------------------*/
+
+ /* styling the "Return to full extent" button */
+#returnbutton {
+  position: absolute;
+  background-color:#f33e6e;
+  border : none;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 15px 32px;
+  color: white;
+  left: 100px;
+  top: 260px;
+  width: 10%;
 }

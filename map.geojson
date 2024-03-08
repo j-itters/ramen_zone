@@ -4,8 +4,8 @@
     {
       "type": "Feature",
       "properties": {
-      "name": "Isshin Ramen",
-      "stars" : 4.6
+        "name": "Isshin Ramen",
+	"stars" : 4.6
       },
       "geometry": {
         "coordinates": [

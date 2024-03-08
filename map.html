@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GGR472 Map</title>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.css'
+    rel='stylesheet' />
+    <link rel="stylesheet" href = "style.css">
+</head>
+
+<!-- Navigation bar on the top -->
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="news.html">News</a>
+    <a href="contact.html">Contact</a>
+    <a class="active" href="#home">Map</a>
+</div>
+
+<!-- Creating the "Ramen Zone" logo that will go on the top of each page -->
+<div class = "logo">
+    <h1>
+        <img src = "images/ramen2.png" alt = "Icon of Ramen in Bowl" class = "img2">
+        The Ramen Zone
+        <img src = "images/ramen2.png" alt = "Icon of Ramen in Bowl" class = "img2">
+    </h1>
+    <p>The best ramen in Toronto, according to Jamie Chow</p>
+
+<!-- Creating an table so I can put an image and an info box side by side -->
+<div class="row">
+  <div class="column2">
+    <div id="my-map" class="map-container"></div>
+    <!-- Image on the left side of the table -->
+    <button type="button" class="btn btn-primary btn-sm" id="returnbutton">Return to full extent</button>
+    <!-- LEGEND -->
+    <div id='legend' class='legend'>
+        <h4>Ratings: 
+        </h4>
+        <!-- Conents of legend will now be added here -->
+    </div>
+    <script src="script_map.js"></script>  
+  </div>
+  <div class="column1">
+    <!-- Info box on the right side of the table -->
+    <div class = "heading">
+        <h3>
+            Best ramen restaurants in Toronto (see ratings)!:
+        </h3>
+        <p>
+            Isshin Ramen<br> 
+            Kinton Ramen<br> 
+            Sansotei Ramen<br> 
+            Ajisen Ramen<br> 
+            Ikkousha Ramen<br> 
+            Konjiki Ramen<br> 
+            Kenzo Ramen
+        </p>
+    </div>
+    <!-- Simple info box using the heading class -->
+    <div class = "heading">
+    <h3>
+        TIP:
+    </h3>
+    <p>
+        Try mousing over the different restaurants and click on 
+        each restaurant to view an info box.
+    </p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer with a small logo for the bottom of each page -->
+<div class = "footer">
+    <img src = "images/ramen2.png" alt = "Icon of Ramen in Bowl" class = "img2">
+    </div>
+
+</html>
