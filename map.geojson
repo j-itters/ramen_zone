@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "Isshin Ramen"
-	"stars" : "4.6"
+	"stars" : 4.6
       },
       "geometry": {
         "coordinates": [
@@ -20,7 +20,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ikkousha Ramen"
-	"stars" : "4.6"
+	"stars" : 4.6
       },
       "geometry": {
         "coordinates": [
@@ -35,7 +35,7 @@
       "type": "Feature",
       "properties": {
         "name": "Sansotei Ramen"
-	"stars" : "4.5"
+	"stars" : 4.5
       },
       "geometry": {
         "coordinates": [
@@ -50,7 +50,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kenzo Ramen"
-	"stars" : "4.0"
+	"stars" : 4.0
       },
       "geometry": {
         "coordinates": [
@@ -65,7 +65,7 @@
       "type": "Feature",
       "properties": {
         "name": "Ajisen Ramen"
-	"stars" : "4.4"
+	"stars" : 4.4
       },
       "geometry": {
         "coordinates": [
@@ -80,7 +80,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kinton Ramen"
-	"stars" : "4.4"
+	"stars" : 4.4
       },
       "geometry": {
         "coordinates": [
@@ -95,7 +95,7 @@
       "type": "Feature",
       "properties": {
         "name": "Konjiki Ramen"
-	"stars" : "4.3"
+	"stars" : 4.3
       },
       "geometry": {
         "coordinates": [
